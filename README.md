@@ -19,7 +19,7 @@ var mino = Me{
 	Handle:    "minomat180",
 	Role:      "IT apprentice, 3rd year, SOC team",
 	Setup:     []string{"Void Linux on a ThinkPad T480", "NixOS home server", "a Mac"},
-	Languages: []string{"C", "Go", "shell"},
+	Languages: []string{"C", "Go", "JavaScript", "TypeScript", "Python", "shell"},
 	Into:      []string{"self-hosting", "coding agents", "racing games", "Cowboy Bebop"},
 	Garage:    "learner's permit, one day an S13 Silvia",
 }
