@@ -1,31 +1,35 @@
 <h1 align="center">Hi, I'm mino</h1>
 <h3 align="center">I build small tools and look at JDM cars</h3>
 
-## about_me.go
+## about_me.c
 
-```go
-package main
+```c
+#include <stddef.h>
 
-type Me struct {
-	Handle    string
-	Role      string
-	Setup     []string
-	Languages []string
-	Into      []string
-	Garage    string
-}
+struct me {
+	const char *handle;
+	const char *role;
+	const char *const *setup;
+	const char *const *languages;
+	const char *const *into;
+	const char *garage;
+};
 
-var mino = Me{
-	Handle:    "minomat180",
-	Role:      "IT apprentice, 3rd year, SOC team",
-	Setup:     []string{"Void Linux on a ThinkPad T480", "NixOS home server", "a Mac"},
-	Languages: []string{"C", "Go", "JavaScript", "TypeScript", "Python", "shell"},
-	Into:      []string{"self-hosting", "coding agents", "racing games", "Cowboy Bebop"},
-	Garage:    "learner's permit, one day an S13 Silvia",
-}
+static const struct me mino = {
+	.handle    = "minomat180",
+	.role      = "IT apprentice, 3rd year, SOC team",
+	.setup     = (const char *const[]){ "a MacBook I sit at",
+	                                    "an old MacBook running NixOS as a home server",
+	                                    "Tailscale in between", NULL },
+	.languages = (const char *const[]){ "C", "Go", "JavaScript", "TypeScript",
+	                                    "Python", "shell", NULL },
+	.into      = (const char *const[]){ "self-hosting", "coding agents", "racing games",
+	                                    "Cowboy Bebop", "jazz late at night", NULL },
+	.garage    = "learner's permit, one day an S13 Silvia",
+};
 ```
 
-<a href="https://mino.180sx.tech"><img src="site.png" alt="mino.180sx.tech, the setup page" width="100%"></a>
+<a href="https://mino.180sx.tech"><img src="site.png" alt="mino.180sx.tech, the garage page" width="100%"></a>
 
 ## What I am working on
 
@@ -35,6 +39,7 @@ var mino = Me{
 - [agent-setup](https://github.com/minomat180/agent-setup) - restore kit for my two-machine agent setup
 - [capri-desktop](https://github.com/minomat180/capri-desktop) - Capri, a desktop companion that narrates Claude Code, on Linux and macOS
 - [lenotch](https://github.com/minomat180/lenotch) - MacBook notch utility: now playing, file shelf, HUDs
+- [phosphene](https://github.com/minomat180/phosphene) - vibe-coded fork of Phosphene: video wallpaper on the lock screen, its own image on the desktop
 - [180sx.tech](https://github.com/minomat180/180sx-zine) - a Nissan 180SX fan zine as a fake Windows 98 desktop
 - [mino.180sx.tech](https://mino.180sx.tech) - my personal page
 
