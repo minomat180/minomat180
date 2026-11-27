@@ -37,6 +37,7 @@ static const struct me mino = {
 - [agent-vault](https://github.com/minomat180/agent-vault) - an agent uses a secret in one command without seeing it
 - [ipod-vault](https://github.com/minomat180/ipod-vault) - age-encrypted password vault on an iPod
 - [agent-setup](https://github.com/minomat180/agent-setup) - restore kit for my two-machine agent setup
+- [agent-garage](https://github.com/minomat180/agent-garage) - a NixOS microVM per friend for their coding agents, reachable only through Cloudflare Access
 - [capri-desktop](https://github.com/minomat180/capri-desktop) - Capri, a desktop companion that narrates Claude Code, on Linux and macOS
 - [lenotch](https://github.com/minomat180/lenotch) - MacBook notch utility: now playing, file shelf, HUDs
 - [phosphene](https://github.com/minomat180/phosphene) - vibe-coded fork of Phosphene: video wallpaper on the lock screen, its own image on the desktop
