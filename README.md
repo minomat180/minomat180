@@ -29,7 +29,7 @@ static const struct me mino = {
 };
 ```
 
-<a href="https://mino.180sx.tech"><img src="site.png" alt="mino.180sx.tech: a blue road sign over a photo of an S13 Silvia" width="100%"></a>
+<a href="https://mino.180sx.tech"><img src="site.png" alt="mino.180sx.tech: a dial-up board with a chrome mino logo and a modem dialer log" width="100%"></a>
 
 ## What I am working on
 
